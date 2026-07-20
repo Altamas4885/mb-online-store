@@ -48,9 +48,15 @@ export default function ThankYou() {
           )}
 
           <div className="mt-8 flex flex-col gap-3">
-            <a href="#" className="btn-primary">
-              <Download className="w-4 h-4" /> Download Your Files
-            </a>
+            <a
+              href="https://drive.google.com/uc?export=download&id=1ULvHYBNI3qVb2tpvv3wyBaXW6tfwbVdp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+>
+  <Download className="w-4 h-4" />
+  Download Your Files
+</a>
             <a href={`mailto:${brand.email}`} className="btn-secondary">
               <Mail className="w-4 h-4" /> Contact Support
             </a>
