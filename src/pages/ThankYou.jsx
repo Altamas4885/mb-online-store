@@ -49,7 +49,7 @@ export default function ThankYou() {
 
           <div className="mt-8 flex flex-col gap-3">
             <a
-              href="https://drive.google.com/uc?export=download&id=1ULvHYBNI3qVb2tpvv3wyBaXW6tfwbVdphttps://1drv.ms/u/c/83337990653e091e/IQDmwIzhuRIMS6dSQ32KByMbAZZp0IKrneLZmlWm-jGm5Vk?e=HBWKxD"
+              href="https://1drv.ms/u/c/83337990653e091e/IQDmwIzhuRIMS6dSQ32KByMbAZZp0IKrneLZmlWm-jGm5Vk?e=HBWKxD"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
