@@ -36,13 +36,13 @@ export default function VideoSection() {
           {/* Replace src with your real product-demo MP4 file */}
           <video
             ref={videoRef}
-            className="w-full h-full object-cover"
-            poster="/og-cover.svg"
-            preload="none"
+            className="w-full h-full object-contain"
+            
+            preload="auto"
             autoPlay={false}
             onClick={togglePlay}
           >
-            <source src="/videos/product-demo.mp4" type="video/mp4" />
+            <source src="/videos/promo.mp4" type="video/mp4" />
           </video>
 
           {!playing && (
